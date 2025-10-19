@@ -21,6 +21,7 @@ const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'databricks.frankgroup.uk';      
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiM2JmODY4MDI0OWY5MmE3ZTYyYjdkNDU2ZDFlMjViYWQiLCJ0IjoiOGIzYmZiZGItMDMzMi00Y2Q0LTk2ZmUtYjBhZjA5Mjg3YzVkIiwicyI6Ik1EZGxPV1kxTVRrdE1XSTVZeTAwTVRkaUxUaGlZV1l0WWpFeE9XWmpZV0k0T0RVeCJ9';
 const CFIP = process.env.CFIP || 'cdns.doon.eu.org';        // 节点优选域名或优选ip  
 const CFPORT = process.env.CFPORT || 8001;                   // 节点优选域名或优选ip对应的端口
+const ARGO_PORT = process.env.ARGO_PORT || 8001; 
 const NAME = process.env.NAME || 'mydata';                        // 节点名称
 
 // 创建运行文件夹
